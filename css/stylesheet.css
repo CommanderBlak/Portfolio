@@ -1,8 +1,63 @@
-body{
-  padding-top: 20px;
-  background-color: #d7e0ef;
+* {
+  margin: 0px;
 }
 
-#skills{
-  float: right;
+html, body {
+  font-family: 'Pangolin', cursive;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 20px;
+}
+
+nav {
+  position: fixed;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 99;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: line-through;
+  color: blue;
+  margin-left: 30px;
+  line-height: 50px;
+}
+
+.section {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.subSection {
+  height: 50%;
+  background-color: white;
+  color: black;
+}
+
+.sectOne {
+  background-image: url("../images/image1.jpg");
+}
+
+.sectTwo {
+  background-image: url("../images/image2.jpg");
+}
+
+.sectThree {
+  background-image: url("../images/image3.jpeg");
+}
+
+#logo {
+  margin-top: 15%;
+}
+
+#footer {
+  margin-top: 10%;
 }

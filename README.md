@@ -9,6 +9,6 @@ It details a list of projects I have created and their links and an "About Me" s
 
   * I am the only contributor
   * This is not software
-  * It does not have a licence
+  * It does not have a license
 
 This is a [link](https://github.com/CommanderBlak/Cookie.git) to the GitHub repository for the Cookie directory.
